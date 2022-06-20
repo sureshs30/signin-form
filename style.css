@@ -1,0 +1,80 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            overflow: hidden;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        
+        .form1 {
+            background-color: rgba(7, 114, 110, 0.88);
+            height: 720px;
+            scroll-behavior: none;
+            padding-top: 100px;
+        }
+        
+        .signup {
+            text-align: center;
+            color: rgb(15, 14, 14);
+            font-size: 40px;
+            font-weight: bold;
+            text-decoration: underline white;
+        }
+        
+        span {
+            color: white;
+        }
+        
+        .journey {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 400px;
+            color: white;
+            padding-top: 200px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: black;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .form2 {
+            justify-content: center;
+        }
+        
+        dl {
+            font-size: 20px;
+            padding: 100px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 600;
+        }
+        
+        dd {
+            padding: 10px;
+        }
+        
+        .inp-type {
+            width: 500px;
+            height: 40px;
+            border-radius: 5px solid black;
+        }
+        
+        button {
+            background-color: rgba(14, 147, 140, 0.942);
+            color: rgb(245, 238, 238);
+            border: rgba(14, 147, 140, 0.942);
+            width: 100px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
